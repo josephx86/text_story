@@ -26,6 +26,7 @@ When project is loaded, press the Run button to run the app in an emulator (or i
 
 ## Requirements
 
-Xcode 11.4
-Swift 4.0
-Simulator or iPhone for testing
+- Xcode 11.4
+- Swift 4.0
+- Simulator or iPhone for testing
+
