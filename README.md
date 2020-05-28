@@ -21,7 +21,7 @@ ReadingViewController allows reading the book's full text when 'Read' is pressed
 Download the source to your computer with XCode 11 installed
 Open the project by double-clicking on "Text Story.xcodeproj"
 
-# Requirements
+## Requirements
 
 Xcode 11.4
 Swift 4.0
