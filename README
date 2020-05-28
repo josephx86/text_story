@@ -1,0 +1,9 @@
+The app allows the user to read books as text files from gutenberg.org
+
+When the app is launched, the user is presented with a tabbed screen that has "Random"  and "Downloads" tabs. The user is first shown random books. Pressing on one of the books will take the user to a book details screen. 
+
+On the details screen, a user can download a book. The user interface will allow reading or deleting books after they have been downloaded and stored on the device. Before deleting, the app will ask the user to confirm the delete operation. If a user wants to read a book, they can press on the read button after the downloading the book, which will take the user to a screen where teh book text is displayed. 
+
+Going back to the initial tabbed screen, the user can view a list of downloaded books. 
+
+On the from the Random or Downloads screens, a user can search for books and the reults will be shown in a separate screen.
