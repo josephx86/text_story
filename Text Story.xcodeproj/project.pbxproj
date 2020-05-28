@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		7C56FD85247F251100825E80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56FD84247F251100825E80 /* AppDelegate.swift */; };
 		7C56FD87247F251100825E80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56FD86247F251100825E80 /* SceneDelegate.swift */; };
-		7C56FD89247F251100825E80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56FD88247F251100825E80 /* ViewController.swift */; };
+		7C56FD89247F251100825E80 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56FD88247F251100825E80 /* HomeViewController.swift */; };
 		7C56FD8C247F251100825E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C56FD8A247F251100825E80 /* Main.storyboard */; };
 		7C56FD8E247F251600825E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C56FD8D247F251600825E80 /* Assets.xcassets */; };
 		7C56FD91247F251600825E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C56FD8F247F251600825E80 /* LaunchScreen.storyboard */; };
+		7C56FD9B247F277500825E80 /* HttpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56FD9A247F277500825E80 /* HttpHelper.swift */; };
+		7C56FD9D247F296300825E80 /* GutenbergBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56FD9C247F296300825E80 /* GutenbergBook.swift */; };
+		7C56FDA0247F37F600825E80 /* GutenbergBookInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56FD9F247F37F600825E80 /* GutenbergBookInfo.swift */; };
+		7C56FDA3247F649C00825E80 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C56FDA1247F649C00825E80 /* Model.xcdatamodeld */; };
+		7C56FDA5247F718000825E80 /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56FDA4247F718000825E80 /* BookManager.swift */; };
+		7C56FDA7247F833C00825E80 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56FDA6247F833C00825E80 /* Aliases.swift */; };
+		7C56FDA9247FB38E00825E80 /* BookInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C56FDA8247FB38E00825E80 /* BookInfoViewController.swift */; };
+		7CF61F90247FE944005C6964 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF61F8F247FE944005C6964 /* Extensions.swift */; };
+		7CF61F92247FED5A005C6964 /* ReadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF61F91247FED5A005C6964 /* ReadingViewController.swift */; };
+		7CF61F94247FFA24005C6964 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF61F93247FFA24005C6964 /* DownloadsViewController.swift */; };
+		7CF61F96248008D3005C6964 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF61F95248008D3005C6964 /* SearchViewController.swift */; };
+		7CF61F98248009BE005C6964 /* SearchableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF61F97248009BE005C6964 /* SearchableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C56FD81247F251100825E80 /* Text Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Story.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C56FD84247F251100825E80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C56FD86247F251100825E80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C56FD88247F251100825E80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7C56FD88247F251100825E80 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7C56FD8B247F251100825E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C56FD8D247F251600825E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C56FD90247F251600825E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C56FD92247F251600825E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C56FD9A247F277500825E80 /* HttpHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHelper.swift; sourceTree = "<group>"; };
+		7C56FD9C247F296300825E80 /* GutenbergBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GutenbergBook.swift; sourceTree = "<group>"; };
+		7C56FD9F247F37F600825E80 /* GutenbergBookInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GutenbergBookInfo.swift; sourceTree = "<group>"; };
+		7C56FDA2247F649C00825E80 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		7C56FDA4247F718000825E80 /* BookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookManager.swift; sourceTree = "<group>"; };
+		7C56FDA6247F833C00825E80 /* Aliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
+		7C56FDA8247FB38E00825E80 /* BookInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookInfoViewController.swift; sourceTree = "<group>"; };
+		7CF61F8F247FE944005C6964 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7CF61F91247FED5A005C6964 /* ReadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingViewController.swift; sourceTree = "<group>"; };
+		7CF61F93247FFA24005C6964 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		7CF61F95248008D3005C6964 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7CF61F97248009BE005C6964 /* SearchableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,51 @@
 		7C56FD83247F251100825E80 /* Text Story */ = {
 			isa = PBXGroup;
 			children = (
+				7C56FD99247F276400825E80 /* Models */,
+				7C56FD98247F270E00825E80 /* Controllers */,
 				7C56FD84247F251100825E80 /* AppDelegate.swift */,
 				7C56FD86247F251100825E80 /* SceneDelegate.swift */,
-				7C56FD88247F251100825E80 /* ViewController.swift */,
 				7C56FD8A247F251100825E80 /* Main.storyboard */,
 				7C56FD8D247F251600825E80 /* Assets.xcassets */,
 				7C56FD8F247F251600825E80 /* LaunchScreen.storyboard */,
 				7C56FD92247F251600825E80 /* Info.plist */,
 			);
 			path = "Text Story";
+			sourceTree = "<group>";
+		};
+		7C56FD98247F270E00825E80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C56FD88247F251100825E80 /* HomeViewController.swift */,
+				7C56FDA8247FB38E00825E80 /* BookInfoViewController.swift */,
+				7CF61F8F247FE944005C6964 /* Extensions.swift */,
+				7CF61F91247FED5A005C6964 /* ReadingViewController.swift */,
+				7CF61F93247FFA24005C6964 /* DownloadsViewController.swift */,
+				7CF61F95248008D3005C6964 /* SearchViewController.swift */,
+				7CF61F97248009BE005C6964 /* SearchableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7C56FD99247F276400825E80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C56FD9E247F36FA00825E80 /* Gutenberg */,
+				7C56FD9A247F277500825E80 /* HttpHelper.swift */,
+				7C56FDA1247F649C00825E80 /* Model.xcdatamodeld */,
+				7C56FDA4247F718000825E80 /* BookManager.swift */,
+				7C56FDA6247F833C00825E80 /* Aliases.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7C56FD9E247F36FA00825E80 /* Gutenberg */ = {
+			isa = PBXGroup;
+			children = (
+				7C56FD9C247F296300825E80 /* GutenbergBook.swift */,
+				7C56FD9F247F37F600825E80 /* GutenbergBookInfo.swift */,
+			);
+			path = Gutenberg;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +198,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C56FD89247F251100825E80 /* ViewController.swift in Sources */,
+				7C56FDA0247F37F600825E80 /* GutenbergBookInfo.swift in Sources */,
+				7C56FDA9247FB38E00825E80 /* BookInfoViewController.swift in Sources */,
+				7C56FD89247F251100825E80 /* HomeViewController.swift in Sources */,
+				7C56FDA5247F718000825E80 /* BookManager.swift in Sources */,
 				7C56FD85247F251100825E80 /* AppDelegate.swift in Sources */,
+				7C56FDA3247F649C00825E80 /* Model.xcdatamodeld in Sources */,
+				7C56FDA7247F833C00825E80 /* Aliases.swift in Sources */,
+				7CF61F98248009BE005C6964 /* SearchableViewController.swift in Sources */,
 				7C56FD87247F251100825E80 /* SceneDelegate.swift in Sources */,
+				7CF61F96248008D3005C6964 /* SearchViewController.swift in Sources */,
+				7C56FD9B247F277500825E80 /* HttpHelper.swift in Sources */,
+				7CF61F94247FFA24005C6964 /* DownloadsViewController.swift in Sources */,
+				7CF61F90247FE944005C6964 /* Extensions.swift in Sources */,
+				7C56FD9D247F296300825E80 /* GutenbergBook.swift in Sources */,
+				7CF61F92247FED5A005C6964 /* ReadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +410,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7C56FDA1247F649C00825E80 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7C56FDA2247F649C00825E80 /* Model.xcdatamodel */,
+			);
+			currentVersion = 7C56FDA2247F649C00825E80 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7C56FD79247F251100825E80 /* Project object */;
 }
